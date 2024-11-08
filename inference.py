@@ -3,6 +3,7 @@ import mlflow
 import mlflow.pytorch
 import numpy as np
 
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 mlflow.set_tracking_uri("http://127.0.0.1:8081/")

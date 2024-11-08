@@ -7,10 +7,10 @@ from torchinfo import summary
 import torch.nn.functional as F
 import torch.optim as optim
 
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 mlflow.set_tracking_uri("http://127.0.0.1:8081/")
-
 
 class XOR(nn.Module):
     def __init__(self):
