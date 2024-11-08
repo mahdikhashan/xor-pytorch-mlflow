@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1731092729233
+current_stage: None
+description: ''
+last_updated_timestamp: 1731092729233
+name: xor
+run_id: 07d1c2b7e5d7457ab97d202c1324ed05
+run_link: ''
+source: mlflow-artifacts:/0/07d1c2b7e5d7457ab97d202c1324ed05/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/07d1c2b7e5d7457ab97d202c1324ed05/artifacts/model
+user_id: null
+version: 4
